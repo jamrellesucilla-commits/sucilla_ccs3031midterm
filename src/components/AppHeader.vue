@@ -14,13 +14,6 @@ defineProps({ title: String })
 </template>
 
 <style scoped>
-@media (max-width: 600px) {
-  .header {
-    flex-direction: column;
-    gap: 0.5rem;
-    padding: 1rem;
-  }
-}
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -32,4 +25,12 @@ defineProps({ title: String })
 }
 nav { display: flex; gap: 1rem; }
 nav a { color: white; text-decoration: none; }
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+}
 </style>

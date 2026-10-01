@@ -8,7 +8,7 @@ import AppFooter from './components/AppFooter.vue'
 
   <main>
     <section id="home">
-      <h1>Welcome</h1>
+      <h1>Welcome!</h1>
       <p>This is the home section.</p>
     </section>
 
